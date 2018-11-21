@@ -1,0 +1,6 @@
+#Rename this file to my.cnf and push correct mysql data, and remove this line
+[client]
+database = test
+user = user_name
+password = pass
+default-character-set = utf8

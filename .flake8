@@ -1,0 +1,6 @@
+[flake8]
+ignore = D100,D106,D105,D107,D400,D205,W503
+exclude = .git,__pycache__,manage.py,env.yml,my.cnf, migrations,__init__.py,tests.py,views.py,apps.py
+application-import-names = .
+import-order-style = google
+inline-quotes = "

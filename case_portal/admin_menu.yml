@@ -1,0 +1,59 @@
+-
+    app_label: service
+    label:  Услуги
+    items:
+        -
+            name: app_label.Service
+            url:
+                type: model
+                app_label: service
+                model: service
+            label: Услуги
+-
+    app_label: sphere
+    label: Отрасли
+    items:
+        -
+            name: app_label.Sphere
+            url:
+                type: model
+                app_label: sphere
+                model: sphere
+            label: Отрасли
+-
+    app_label: technology
+    label: Технологии
+    items:
+        -
+            name: app_label.Technology
+            url:
+                type: model
+                app_label: technology
+                model: technology
+            label: Технологии
+-
+    app_label: case
+    label: Кеёсы
+    items:
+        -
+            name: app_label.Case
+            url:
+                type: model
+                app_label: case
+                model: case
+            label: Кейсы
+-
+    label: Пользователи и группы
+    items:
+        -
+            name: auth.group
+            label: Группы
+            permissions:
+                -
+                    core.admin
+        -
+            name: auth.user
+            label: Пользователи
+            permissions:
+                -
+                    core.admin
